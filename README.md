@@ -24,13 +24,13 @@ To get a local copy up and running follow these simple example steps.
 - VS code or any code editor
 
 ### Setup
-- Run git clone 
+- Run `git clone git@github.com:chaw-bot/interactive-rating-component.git`
 
 👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@chaw-bot](https://github.com/chaw-bot)
+- Twitter: [@chaw](https://twitter.com/chawfronaut)
+- LinkedIn: [Chawanzi Ng'uni](https://linkedin.com/in/chawanzi-ng-uni)
 
 
 ## 🤝 Contributing
