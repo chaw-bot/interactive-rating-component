@@ -11,8 +11,25 @@ body {
   height: 100vh;
   align-items: center;
   justify-content: center;
+  background-color: hsl(216, 12%, 8%);
 }
 
 main {
-  width: 30%;
+  width: 70%;
+  border-radius: 25px;
+  padding: 5%;
+  background-color: hsl(213, 19%, 18%);
+}
+
+.star {
+  width: 35px;
+  height: auto;
+  background-color: rgb(83, 79, 79);
+  border-radius: 50%;
+  padding: 1%;
+  text-align: center;
+}
+
+.star i {
+  color: hsl(25, 97%, 53%);
 }
