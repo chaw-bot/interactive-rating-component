@@ -3,6 +3,7 @@
 # Interactive rating component
 
 > This is a nice, small project to practice handling user interactions and updating the DOM.
+> This is a solution to the [Interactive Rating Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 
 ## Built With
@@ -24,7 +25,9 @@ To get a local copy up and running follow these simple example steps.
 - VS code or any code editor
 
 ### Setup
-- Run `git clone git@github.com:chaw-bot/interactive-rating-component.git`
+$ mkdir yourFolder
+$ cd yourFolder
+$ Run `git clone git@github.com:chaw-bot/interactive-rating-component.git`
 
 👤 **Author**
 
@@ -45,7 +48,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
+- Hat tip to [Frontend Mentor](https://www.frontendmentor.io/solutions) for the challenge and the template provided.
 - Inspiration
 - etc
 
