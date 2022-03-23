@@ -31,7 +31,7 @@ body {
   background-color: hsl(216, 12%, 8%);
 }
 
-main {
+.main {
   width: 70%;
   padding: 5%;
   background-color: hsl(213, 19%, 18%);
@@ -98,9 +98,30 @@ p {
   color: hsl(0, 0%, 100%);
 }
 
+.align {
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-box {
+  text-align: center;
+}
+
+.rating {
+  padding: 4%;
+  border: none;
+  border-radius: 25px;
+  background: hsla(0, 0%, 37%, 0.233);
+  color: hsl(25, 97%, 53%);
+}
+
+.image {
+  padding-bottom: 20px;
+}
+
 
 @media only screen and (min-width: 768px) {
-  main {
+  .main {
     width: 30%;
     padding: 2%;
   }
