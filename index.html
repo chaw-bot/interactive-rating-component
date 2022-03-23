@@ -7,42 +7,40 @@
     <title>Interactive Rating Component</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&display=swap" rel="stylesheet" />
+    <link href="https://fonts.google.com/specimen/Overpass" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b7a7cffe76.js" crossorigin="anonymous"></script>
   </head>
-  <body>
-    <main>
-      <section>
-        <h1 class="star"><i class="fa fa-solid fa-star"></i></h1>
-        <h2>How did we do?</h2>
-      </section>
-      <section>
+  <body class="flex">
+    <main class="no-border">
+      <h1 class="star case"><i class="fa fa-solid fa-star"></i></h1>
+      <section class="text">
+        <h2 class="white">How did we do?</h2>
         <p>
           Please let us know how we did with your
           support request. All feedback is appreciated
           to help us improve our offering!
         </p>
       </section>
-      <section>
-        <ul>
+      <section class="btn-container flex space">
+        <ul class="space flex">
           <li>
-            <button type="button">1</button>
+            <button type="button" class="star button">1</button>
           </li>
           <li>
-            <button type="button">2</button>
+            <button type="button" class="star button">2</button>
           </li>
           <li>
-            <button type="button">3</button>
+            <button type="button" class="star button">3</button>
           </li>
           <li>
-            <button type="button">4</button>
+            <button type="button" class="star button">4</button>
           </li>
           <li>
-            <button type="button">5</button>
+            <button type="button" class="star button">5</button>
           </li>
         </ul>
-        <input type="button" value="SUBMIT" />
+        <input type="button" value="SUBMIT" class="submit white no-border" />
       </section>
     </main>
   </body>
