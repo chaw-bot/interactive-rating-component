@@ -1,16 +1,20 @@
-// const body = document.getElementById('body');
-// const submitBtn = document.getElementsById('submit');
-// const one = document.getElementsById('one');
-// const two = document.getElementsById('two');
-// const three = document.getElementsById('three');
-// const four = document.getElementsById('four');
-// const five = document.getElementsById('five');
+const submitBtn = document.getElementById('submit');
+const mainContainer = document.getElementById('body');
+const buttons = document.querySelectorAll('.button');
+let number = 0;
+
+buttons.forEach((button) => {
+   button.addEventListener('click', () => {
+    number = button.innerHTML;
+     console.log(number);
+   })
+});
 
 const submitted = () => {
   const htmlText = `<section class="no-border main flex align">
                     <div>
                         <img src="images/illustration.svg" alt="rated svg" class="image" />
-                        <p class="rating">You selected ${} out of 5</p>
+                        <p class="rating">You selected ${number} out of 5</p>
                     </div>
                     <section class="text text-box">
                         <h2 class="white">Thank you!</h2>
@@ -22,7 +26,7 @@ const submitted = () => {
                     </section>
                     </section>`;
 
-  return htmlText;
+  mainContainer.innerHTML = htmlText;
 };
 
-submitted();
+submitBtn.addEventListener('click', submitted);
