@@ -29,10 +29,10 @@ const submitted = () => {
 };
 
 submitBtn.addEventListener('click', () => {
-    if (number > 0) {
-        submitted();
-    } else {
-        mainContainer.innerHTML = '<h4 class="rating">Kindly leave a rating.</h4>';
-        window.location.reload();
-    }
+  if (number > 0) {
+    submitted();
+  } else {
+    mainContainer.innerHTML = '<h4 class="rating">Kindly leave a rating.</h4>';
+    window.location.reload();
+  }
 });
