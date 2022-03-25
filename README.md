@@ -20,7 +20,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://chaw-bot.github.io/interactive-rating-component/)
 
 
 ## Getting Started
