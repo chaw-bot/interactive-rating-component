@@ -108,7 +108,7 @@ p {
 }
 
 .rating {
-  padding: 4%;
+  padding: 15px;
   border: none;
   border-radius: 25px;
   background: hsla(0, 0%, 37%, 0.233);
