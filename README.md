@@ -6,6 +6,12 @@
 > This is a solution to the [Interactive Rating Component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI).
 
 
+## Preview
+
+| Rating Page | Submitted Page |
+|-------------|----------------|
+|![screenshot](images/Screenshot1.png)|![screenshot](images/Screenshot2.png)|
+
 ## Built With
 
 - HTML
